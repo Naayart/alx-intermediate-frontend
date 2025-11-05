@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Hero Section</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Hero Section -->
+  <section class="min-h-screen grid md:grid-cols-2 items-center p-10 bg-white">
+    
+    <!-- Text Content -->
+    <div class="space-y-6">
+      <h1 class="text-5xl font-extrabold text-blue-700">
+        Build Beautiful Interfaces with Tailwind CSS
+      </h1>
+      <p class="text-gray-700 text-lg leading-relaxed">
+        Tailwind CSS lets you build modern, responsive web pages faster and more efficiently. 
+        Use utility classes to bring your ideas to life without writing custom CSS.
+      </p>
+      <div class="flex space-x-4">
+        <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+          Get Started
+        </a>
+        <a href="#" class="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-100 transition">
+          Learn More
+        </a>
+      </div>
+    </div>
+
+    <!-- Image Section -->
+    <div class="flex justify-center mt-8 md:mt-0">
+      <img src="https://tailwindcss.com/_next/static/media/docs@tinypng.d9e4dcdc.png" 
+           alt="Tailwind Example" 
+           class="w-full max-w-md rounded-2xl shadow-lg">
+    </div>
+
+  </section>
+
+</body>
+</html>

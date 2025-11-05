@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Pricing Cards</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Pricing Section -->
+  <section class="py-20 px-6 md:px-12 lg:px-20">
+    <h2 class="text-4xl font-bold text-center mb-12 text-blue-600">Our Pricing Plans</h2>
+
+    <!-- Grid Layout -->
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      
+      <!-- Basic Plan -->
+      <div class="bg-white rounded-2xl shadow-md p-8 text-center hover:shadow-xl transition">
+        <h3 class="text-2xl font-semibold mb-4">Basic</h3>
+        <p class="text-4xl font-bold mb-6">$9<span class="text-lg font-normal text-gray-500">/mo</span></p>
+        <ul class="space-y-3 text-gray-600 mb-8">
+          <li>✔ 5 Projects</li>
+          <li>✔ 10GB Storage</li>
+          <li>✔ Basic Support</li>
+        </ul>
+        <button class="bg-blue-500 text-white py-2 px-6 rounded-lg hover:bg-blue-600 transition">Get Started</button>
+      </div>
+
+      <!-- Pro Plan -->
+      <div class="bg-blue-600 text-white rounded-2xl shadow-lg p-8 text-center hover:shadow-2xl transition">
+        <h3 class="text-2xl font-semibold mb-4">Pro</h3>
+        <p class="text-4xl font-bold mb-6">$29<span class="text-lg font-normal text-blue-100">/mo</span></p>
+        <ul class="space-y-3 text-blue-100 mb-8">
+          <li>✔ Unlimited Projects</li>
+          <li>✔ 100GB Storage</li>
+          <li>✔ Priority Support</li>
+        </ul>
+        <button class="bg-white text-blue-600 py-2 px-6 rounded-lg hover:bg-gray-100 transition">Choose Plan</button>
+      </div>
+
+      <!-- Enterprise Plan -->
+      <div class="bg-white rounded-2xl shadow-md p-8 text-center hover:shadow-xl transition">
+        <h3 class="text-2xl font-semibold mb-4">Enterprise</h3>
+        <p class="text-4xl font-bold mb-6">$99<span class="text-lg font-normal text-gray-500">/mo</span></p>
+        <ul class="space-y-3 text-gray-600 mb-8">
+          <li>✔ Unlimited Projects</li>
+          <li>✔ 1TB Storage</li>
+          <li>✔ 24/7 Dedicated Support</li>
+        </ul>
+        <button class="bg-blue-500 text-white py-2 px-6 rounded-lg hover:bg-blue-600 transition">Contact Sales</button>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
